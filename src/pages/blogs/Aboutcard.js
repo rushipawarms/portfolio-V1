@@ -13,10 +13,10 @@ function AboutCard() {
         </div>
         <div className="content" >
           <h1 style={{fontWeight:"bold", display:"flex",alignItems: 'start'}}>System Engineer</h1>
-          <h5 style={{display:"flex",alignItems: 'start', fontStyle:'italic'}}>Sept 2019-Present</h5>
+          <h5 style={{display:"flex",alignItems: 'start', fontStyle:'italic'}}> Sept 2019-Present</h5>
         <ul >
             <li >
-                Wroking as UI devloper.
+                Working as UI devloper.
             </li>
             <li>
             Collaborates with frontend team.

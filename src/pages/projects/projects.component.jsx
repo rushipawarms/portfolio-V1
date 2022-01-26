@@ -48,7 +48,10 @@ class ProjectsPage extends React.Component {
             <ProjectContainer key={project.id} project={project} />
           ))
         ) : (
-          <Spinner />
+          <div style={{display:'flex',justifyContent:'center', alignItems:'center' }}>
+               <Spinner size='xl'/>
+          </div>
+          
         )}
       </Grid>
     );
