@@ -15,26 +15,10 @@ const ProjectMeta = ({ projectMeta }) => {
   return (
     <GridItem alignSelf="end">
       <Grid templateColumns="2.4fr 1.6fr">
-        <GridItem>
-          {language != null ? (
-            <Badge marginRight="4px">{language}</Badge>
-          ) : null}
-          {stargazers_count >= 0 ? (
-            <span style={{ marginRight: '4px' }}>
-              <Icon as={GoStar} />
-              {stargazers_count}
-            </span>
-          ) : null}
-          {forks_count >= 0 ? (
-            <span style={{ marginRight: '4px' }}>
-              <Icon as={GoRepoForked} />
-              {forks_count}
-            </span>
-          ) : null}
-        </GridItem>
+       
         <GridItem justifySelf="end">
           <a href={html_url} target="_blank" rel="noreferrer">
-            <Icon as={GoMarkGithub} />
+            <Icon as={GoMarkGithub} style={{    fontSize: "1.5rem"}} />
           </a>
           {homepage ? (
             <a
@@ -43,7 +27,7 @@ const ProjectMeta = ({ projectMeta }) => {
               rel="noreferrer"
               style={{ marginLeft: '6px' }}
             >
-              <Icon as={GoLink} />
+              <Icon as={GoLink} style={{    fontSize: "1.5rem"}}/>
             </a>
           ) : null}
         </GridItem>
