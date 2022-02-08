@@ -14,7 +14,7 @@ const ProjectMeta = ({ projectMeta }) => {
 
   return (
     <GridItem alignSelf="end">
-      <Grid templateColumns="2.4fr 1.6fr">
+      <Grid templateColumns="150.4fr 1.6fr">
        
         <GridItem justifySelf="end">
           <a href={html_url} target="_blank" rel="noreferrer">
