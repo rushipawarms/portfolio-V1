@@ -18,7 +18,7 @@ const ProjectMeta = ({ projectMeta }) => {
        
         <GridItem justifySelf="end">
           <a href={html_url} target="_blank" rel="noreferrer">
-            <Icon as={GoMarkGithub}  style={{    fontSize: "1.5rem"}}/>
+            <Icon as={GoMarkGithub} style={{    fontSize: "1.5rem"}} />
           </a>
           {homepage ? (
             <a
