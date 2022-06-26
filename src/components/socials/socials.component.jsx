@@ -42,7 +42,7 @@ const Socials = () => {
   return (
     <>
     <div style={{display:"flex",maginRight:"1rem"}}>
-    <Box style={{marginTop:"-5rem"}} p={4}>
+    <Box style={{marginTop:"-3rem"}} p={4}>
       
       
       <Text fontSize="md" fontWeight="bold">
