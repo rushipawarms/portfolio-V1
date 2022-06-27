@@ -16,7 +16,7 @@ import NavItem from '../nav-item/nav-item.component';
 
 const navItems = [
   { page: 'About', routeUrl: '/About' },
-  { page: 'Projects', routeUrl: '/projects' },
+  { page: 'Repositories', routeUrl: '/projects' },
   {
     page: 'Resume',
     routeUrl:
