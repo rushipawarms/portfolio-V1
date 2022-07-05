@@ -46,7 +46,7 @@ function AboutCard() {
             Collaborates with frontend team.
             </li>
             <li>
-            Building things on React,redux.
+            Building things on HTML,CSS and JavaScript.
             </li>
         </ul>
         </div>
