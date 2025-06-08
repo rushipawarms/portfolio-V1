@@ -55,7 +55,7 @@ const ProfileCard = () => {
               >
                 Rushikesh Pawar
                 <Typist.Backspace count={15} delay={1250} />
-                Frontend Developer
+                Senior Software Engineer 
                 <Typist.Backspace count={18} delay={1250} />
                
               </span>
